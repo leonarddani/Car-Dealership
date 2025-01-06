@@ -162,4 +162,49 @@ body{
     cursor: pointer;
 
 }
+
+/* ===== filter =======*/
+.hero .hero-filter{
+    width: 745px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 100px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px;
+    box-shadow: 0 30px 80 rgba(0, 0, 0, 0.04);
+}
+
+.hero .hero-filter .select p{
+    font-size: 14px;
+    color: #d3d5e0;
+    cursor: pointer;
+}
+
+.hero .hero-filter .select span{
+    color: var(--primary-dark);
+}
+
+.hero .hero-filter .filter-search{
+    background-color: var(--primary-red);
+    color: var(--primary-white);
+    font-size: 24px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s all ease;
+}
+
+.hero .hero-filter .filter-search:hover{
+    background-color: var(--primary-dark);
+}
+
+/* ===== filter =======*/
+/* ===== hero-section =======*/
+
+
+
+
 /* ===== hero-section =======*/
