@@ -1,0 +1,64 @@
+@import url(variables.css);
+/*
+
+--primary-red
+
+--primary-dark
+
+
+
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--primary-white);
+    font-family: "poppins", sans-serif;
+}
+
+.navbar{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+}
+
+.navbar-links{
+    display: flex;
+    list-style-type: none ;
+    gap: 30px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #666872;
+    font-size: 1rem;
+    transition: color 0.3s;
+
+}
+.navbar-links a:hover{
+    color: var(--primary-red);
+}
+
+.navbar-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.navbar-logo img{
+    height: 40px;
+}
+
+.navbar-logo .car{
+    font-size: 30px;
+    color: var(--primary-dark);
+}
+.navbar-logo .dealership{
+    color: var(--primary-red);
+}
