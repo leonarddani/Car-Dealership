@@ -152,6 +152,64 @@ body {
   cursor: pointer;
 }
 
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    transform: translateX(-50%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(-50%);
+  }
+}
+@keyframes imgFadeOut {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+@keyframes imgFadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.fade-out,
+.fade-in {
+  animation-fill-mode: forwards;
+}
+
+.bg-text-fade-out {
+  animation: fadeOut 0.6s ease;
+}
+.bg-text-fade-in {
+  animation: fadeIn 0.6s ease;
+}
+.img-fade-out {
+  animation: imgFadeOut 0.6s ease;
+}
+.img-fade-in {
+  animation: imgFadeOut 0.6s ease;
+}
 /* ===== filter =======*/
 .hero .hero-filter {
   width: 745px;
